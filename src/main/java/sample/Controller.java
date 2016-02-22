@@ -81,6 +81,6 @@ public class Controller {
     }
 
     public void onMouseClikced(Event event) {
-        System.exit(0);
+        appStage.close();
     }
 }
